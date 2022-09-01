@@ -12,7 +12,7 @@
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
     "prepublishOnly": "npm run build",
-    "release": "npm run docs:build && npx standard-version && npm publish --access public"
+    "release": "npm run docs:build && npx standard-version && npm publish"
   },
   "files": [
     "dist"
@@ -31,6 +31,7 @@
     ]
   },
   "dependencies": {
+    "dumi-hxp": "^1.1.1",
     "react": "^18.0.0"
   },
   "devDependencies": {
