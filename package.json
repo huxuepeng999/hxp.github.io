@@ -1,7 +1,7 @@
 {
   "public": true,
   "name": "dumi-hxp",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "scripts": {
     "start": "dumi dev",
     "docs:build": "dumi build",
@@ -11,7 +11,8 @@
     "prettier": "prettier --write \"**/*.{js,jsx,tsx,ts,less,md,json}\"",
     "test": "umi-test",
     "test:coverage": "umi-test --coverage",
-    "prepublishOnly": "npm run build"
+    "prepublishOnly": "npm run build",
+    "release": "npm run docs:build && npx standard-version && npm publish --access public"
   },
   "files": [
     "dist"
