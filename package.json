@@ -1,6 +1,6 @@
 {
-  "private": true,
-  "name": "dumi1",
+  "public": true,
+  "name": "dumi-hxp",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",
